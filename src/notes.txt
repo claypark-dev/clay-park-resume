@@ -1,0 +1,7 @@
+Serve Resume From s3 bucket
+Serve email from ses and aws lambda
+Integrate Dynamo Db somehow
+
+
+
+Utilizing Gatsby,Less,React,DynamoDB,lambda, and github
