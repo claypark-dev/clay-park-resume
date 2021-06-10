@@ -5,11 +5,14 @@ import "./footer.less"
 const Footer = () => (
   <footer>
     <div>
-      <h1>
+      <h6>
+          Created By Clay Park
+      </h6>
+      <h6>
         <Link>
-          Something
+          Link to repo here!
         </Link>
-      </h1>
+      </h6>
     </div>
   </footer>
 )

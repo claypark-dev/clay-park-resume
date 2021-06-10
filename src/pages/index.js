@@ -29,8 +29,7 @@ const IndexPage = () => (
     <div id="contact">
       <form>
         <div class="form-name">
-          <input type="text" class="form-control" placeholder="First Name"></input>
-          <input type="text" class="form-control" placeholder="Last Name"></input>
+          <input type="text" class="form-control" placeholder="Name"></input>
         </div>
         <div class="form-email">
           <input type="text" class="form-control" placeholder="Email"></input>
