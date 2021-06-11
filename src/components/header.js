@@ -16,11 +16,11 @@ const Header = () => (
             />
           </div>
           <div class="header-links">
-            <Link to="#header-top">Home</Link>
-            <Link to="#about">About</Link>
-            <Link to="#work">Work</Link>
-            <Link to="#projects">Projects</Link>
-            <Link to="#contact">Contact</Link>
+            <Link to="#header-top">🏡 Home</Link>
+            <Link to="#about">👩🏻‍💻 About</Link>
+            <Link to="#work">🏢 Work</Link>
+            <Link to="#projects">📝 Projects</Link>
+            <Link to="#contact">📧 Contact</Link>
             <button>Resume</button>
           </div>
         </nav>

@@ -1,3 +1,4 @@
+@import url('./layout.less');
 nav{
     display: flex !important;
     width: 100%;
@@ -5,6 +6,7 @@ nav{
     align-items: center;
     z-index: 25;
     padding: 2rem;
+    font-size: 15px;
 
     .header-logo{
         flex-grow: 1;
@@ -22,6 +24,13 @@ nav{
             display: inline-block;
             color: white !important;
             text-decoration: none;
+        }
+        button{
+            color: @primary_text;
+            background: none;
+            padding: 5px 10px;
+           border-radius: 4px;
+           border: 1px solid @secondary_active;
         }     
     }
 }

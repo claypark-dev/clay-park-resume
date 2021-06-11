@@ -18,10 +18,18 @@ const Layout = ({ children }) => {
   return (
     <>
       <div class="header-section">
-      <Header />
-        <h1>Clay Park</h1>
-        <h3>Software Engineer - Full Stack</h3>
-      <Animation />
+        <Header />
+        <div class="main-header-content">
+          <div class="canvas-split">
+            <Animation />
+          </div>
+          <div class="header-text">
+            <h1>Clay Park</h1>
+            <h3>Software Engineer - Full Stack</h3>
+          </div>
+        </div>
+
+
       </div>
         <div>
         <main>{children}</main>

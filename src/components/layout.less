@@ -1,8 +1,9 @@
-@primary_background: rgb(24,24,24);
-@secondary_background: #000000;
+@primary_background: #1b1c27;
+@secondary_background: #282932;
 @primary_text: #f3f3f3;
 @primary_active: #3700B3;
-@secondary_text: #708090;
+@primary_link: #3568d4;
+@secondary_text: #9fa1a3;
 @secondary_active: #03DAC6;
 @secondary_variant: #BB86FC;
 
@@ -18,27 +19,29 @@ html {
 .header-section{
     position: relative;
     margin-bottom: 10rem;
+    .main-header-content{
+        display: flex;
+        padding-top: 7rem;
+    }
 
     canvas{
         text-align: center;
     }
-
-    h1{
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index: 10;
-        color: @primary_text;
-        font-size: 8rem;
-
+    .canvas-split{
+        width: 50%;
+        display: inline-block;
     }
-    h3{
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index: 10;
-        color: @secondary_text;
+    .header-text{
+        margin-top: 20px;
+        margin-left: -14rem;
+        h1{
+            color: @primary_text;
+            font-size: 8rem;
+    
+        }
+        h3{
+            z-index: 10;
+            color: @secondary_active;
+        }
     }
 }
