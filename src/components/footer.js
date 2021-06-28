@@ -9,7 +9,7 @@ const Footer = () => (
           Created By Clay Park
       </h6>
       <h6>
-        <Link>
+        <Link to="https://github.com/claypark-dev/clay-park-resume">
           Link to repo here!
         </Link>
       </h6>
